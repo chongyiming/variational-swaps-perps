@@ -58,7 +58,7 @@ Profit = perp funding − swap funding − trading costs
 
 ## Backtest result
 
-- XAU perp funding stayed positive throughout the backtest period.
+- XAU perp funding stayed positive throughout the backtest period https://loris.tools/funding/coin/xau?exchanges=variational&start=2025-09-17T00%3A00&end=2026-09-20T23%3A59
 - Both legs were compared on the same annualized basis. The perp settles every 4 hours; the swap charges daily.
 - Estimated net return: **~10% APR**.
 
@@ -66,6 +66,5 @@ Profit = perp funding − swap funding − trading costs
 
 ## Notes
 
-- **Past results aren't guaranteed.** Perp funding can turn negative. Exit if the spread stops covering the swap rate.
-- **Wednesday triple charge.** The swap charges triple funding on Wednesday to cover the weekend, even if the position is closed before the weekend.
-- **Short swap history.** Swaps launched September 1, 2026, so the swap rate is based on limited data.
+- **Past results aren't guaranteed.** Perp funding can drop or turn negative.
+- **Wednesday triple charge.** The swap charges triple funding on Wednesday to cover the weekend.
